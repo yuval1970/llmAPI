@@ -8,3 +8,21 @@ wheels/
 
 # Virtual environments
 .venv
+openquake_env/
+
+# Secrets
+.env
+
+# OS
+.DS_Store
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Downloaded/generated data & outputs
+asus/data/
+asus/shakemaps/
+tws/*.csv
+
+# External tutorial clone (own nested git repo)
+asus2/
