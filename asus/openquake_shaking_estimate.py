@@ -135,9 +135,9 @@ def main():
                         help="Depth to top of rupture, km (default 10)")
     parser.add_argument("--distances", type=float, nargs="+", required=True,
                         help="One or more Joyner-Boore distances in km")
-    parser.add_argument("--vs30", type=float, default=400.0,
                         help="Site Vs30 in m/s (default 400 = generic "
                              "soil; try 760 for rock, 200 for soft soil)")
+    parser.add_argument("--vs30", type=float, default=400.0,
     args = parser.parse_args()
 
     print(f"Computing BSSA14 ground motion for M{args.mag}, "
